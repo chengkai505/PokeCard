@@ -155,7 +155,7 @@
 .poke-back {
   flex: 2;
   position: relative;
-  background-position: left center;
+  background-position: top center;
   background-size: cover;
 }
 .poke-back img {
@@ -383,4 +383,16 @@
 }
 .poke-dark .poke-icon {
     background-image:url(icons/dark.png)
+}
+.poke-github {
+  position: absolute;
+  right: -.5rem;
+  bottom: -1rem;
+  display: block;
+  line-height: 1;
+  background:  linear-gradient(135deg, #fff 0%, #000 100%) no-repeat;
+  font-size: 3.5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  opacity: .3
 }
