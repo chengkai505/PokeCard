@@ -390,8 +390,8 @@
   bottom: -1rem;
   display: block;
   line-height: 1;
-  background:  linear-gradient(135deg, #fff 0%, #000 100%) no-repeat;
-  font-size: 3.5rem;
+  background:  linear-gradient(135deg, #fff 0%, #aaa 100%) no-repeat;
+  font-size: 5rem;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   opacity: .3
