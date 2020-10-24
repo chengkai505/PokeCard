@@ -25,27 +25,29 @@ if(!isset($_GET['q'])) {
 <html>
 <head>
 	<meta charset='utf-8'>
-	<title>神奇寶貝簡易圖鑑產生器</title>
+	<meta content='width=device-width' name='viewport'>
+	<title>神奇寶貝卡片產生器</title>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<style>
+	::-webkit-scrollbar {
+	    width: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+	    background: #666;
+	    border-radius: 5px;
+	}
 	html {
-		height: 100vh;
 		background: url(https://1.bp.blogspot.com/-2j0lSH8gLBc/XWSGaZmZNGI/AAAAAAAAW3Q/zx5_OLOFhhsK7Qdw9uYiVV_CN-UccJTBgCKgBGAs/s1600/alexandr-bormotin-X8MLIFfcF-g-unsplash.jpg) center/cover no-repeat;
-		overflow: hidden;
 	}
 	body {
-		position: absolute;
-		top: 50%;
-		left: 50%;
+		margin: 2em auto;
 		padding: 2em;
 		border-radius: 2em;
-		width: 400px;
-		transform: translate3d(-50%, -50%, 0);
+		max-width: 400px;
 		backdrop-filter: blur(1em);
 		box-shadow: 0 0 2em rgba(0, 0, 0, .2);
 		text-align: center;
 		font: 16px/2 'Ubuntu', 'Microsoft JhengHei',sans-serif;
-		overflow: hidden auto;
 	}
 	h1, h2 {
 		margin: 0;
@@ -85,7 +87,7 @@ if(!isset($_GET['q'])) {
 	</style>
 </head>
 <body>
-	<h1>神奇寶貝簡易圖鑑產生器</h1>
+	<h1>神奇寶貝卡片產生器</h1>
 	<form action='' method='get'>
 		<input type='text' name='q'>
 		<input type='submit' value='產生'>
