@@ -152,6 +152,7 @@
   flex-direction: row;
   overflow: hidden;
   cursor: default;
+  color: #333;
 }
 .poke-back {
   flex: 2;
