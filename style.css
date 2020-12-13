@@ -256,18 +256,26 @@
 }
 @media screen and (max-width: 400px){
 	.poke-card {
-		flex-direction: column
+		margin-top: 4em;
+		flex-direction: column;
+		overflow: visible;
 	}
 	.poke-back {
+		border-radius: 1em 1em 0 0;
 		min-height: 150px;
 	}
 	.poke-back img {
 		width: 100%;
 		height: auto;
 	}
+	.poke-data {
+		border-radius: inherit;
+		background: linear-gradient(135deg,transparent,rgb(255,255,255,.6),#fff,#fff);
+	}
 	.poke-icon {
-		top: -2em;
-		left: 0;
+		top: -8em;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 }
 @media screen and (max-width: 250px){
