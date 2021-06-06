@@ -7,7 +7,7 @@ pokeCard.sender.onreadystatechange = function() {
 	pokeCard.main();
   }
 };
-pokeCard.sender.open("GET", "https://chengkai505.github.io/Pokedex/", true);
+pokeCard.sender.open("GET", "https://kai-tw.github.io/Pokedex/", true);
 pokeCard.sender.send();
 
 pokeCard.main = function () {
